@@ -1,3 +1,3 @@
 import './App.css'
 //hola
-export default function App() { const fecha = new Date().toLocaleString();  return ( <main> <h1>Hola SENA</h1> </main>)}
+export default function App() { const fecha = new Date().toLocaleString();  return ( <main> <h1>Hola soy Juan Esteban Lezcano aprendiz de ADSO con el numero de ficha 3229209</h1> <p>En este de React JS me gustaria aprender a realizar Props: cómo pasar información entre componentes, State: cómo manejar datos internos de un componente, Ciclo de vida de los componentes componentDidMount, useEffect.</p> </main>)}
