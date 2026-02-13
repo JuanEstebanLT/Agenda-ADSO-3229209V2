@@ -57,5 +57,16 @@ const pendientes = total - completadas;
 const porcentaje = total > 0 ? ((completadas / total) * 100).toFixed(1) : 0;
 console.log(`Total: ${total} | Completadas: ${completadas} | Pendientes: ${pendientes} | Progreso: ${porcentaje}%`);
 };
+
 // ===== DEMOSTRACIÓN =====
-console.log("")
+
+mostrarTareas()
+
+const nueva = agregarTarea("estudiar JS")
+mostrarTareas ()
+completarTarea(1)
+
+eliminarTarea(2)
+mostrarTareas()
+
+obtenerEstadisticas()
